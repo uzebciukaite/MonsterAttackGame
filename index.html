@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="playersSide">
+        <img src="player.jpg" alt="" />
+        <div class="outerBox">
+          <div class="innerBox playerLives"></div>
+        </div>
+        <h2>lives left: 100%</h2>
+        <div class="weaponsList"></div>
+      </div>
+      <div class="buttonBox">
+        <div class="goldPotion">
+          <div class="gold">
+            <img src="gold.png" alt="" />
+            <p>Gold: 0</p>
+          </div>
+
+          <div class="potion">
+            <img src="potion.png" alt="" />
+            <p>Price: 50 Gold</p>
+          </div>
+        </div>
+        <div class="gameOver">GAME <br />OVER</div>
+        <button>ATTACK</button>
+        <button class="startAgain">START AGAIN</button>
+      </div>
+      <div class="monstersSide">
+        <img src="monster.png" alt="" />
+        <div class="outerBox">
+          <div class="innerBox monsterLives"></div>
+        </div>
+        <h2>lives left: 100%</h2>
+        <div class="weaponsListMon"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

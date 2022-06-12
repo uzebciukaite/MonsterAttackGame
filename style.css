@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.container {
+  width: 98%;
+  height: 700px;
+  background: lightseagreen;
+  border-radius: 10px;
+  margin: 70px auto;
+  display: flex;
+  font-family: poppins;
+}
+
+.playersSide,
+.monstersSide {
+  margin: auto;
+  width: 40%;
+  height: 90%;
+  background: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttonBox button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  background-color: rgb(15, 77, 74);
+  color: whitesmoke;
+}
+
+.playersSide img,
+.monstersSide img {
+  width: 80%;
+  height: 50%;
+  border-radius: 50%;
+  border: 3px solid rgb(15, 77, 74);
+}
+
+.outerBox {
+  width: 90%;
+  height: 30px;
+  background: lightseagreen;
+}
+
+.innerBox {
+  width: 100%;
+  height: 100%;
+  background: rgb(15, 77, 74);
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 700;
+  color: brown;
+}
+
+.gameOver {
+  background: crimson;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: none;
+  text-align: center;
+  justify-content: center;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 1.4em;
+}
+
+.startAgain {
+  display: none;
+}
+
+.goldPotion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.potion,
+.gold {
+  border: 3px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+.gold img,
+.potion img {
+  width: 80px;
+}
+
+.weaponsList,
+.weaponsListMon {
+  width: 100%;
+  height: 80px;
+}
+
+.weaponsList {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.weaponsList img {
+  width: 80px;
+  height: 100%;
+  border: 3px solid lightseagreen;
+}
+
+.border {
+  border: 3px solid rgb(15, 77, 74);
+}
